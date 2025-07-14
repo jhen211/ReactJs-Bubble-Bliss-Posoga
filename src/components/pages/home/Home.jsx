@@ -1,7 +1,14 @@
-import React from 'react'
-import Header from '../../partials/Header'
-import Banner from './banner/Banner'
-import Parts from './parts/Parts'
+import React from "react";
+import Header from "../../partials/Header";
+import Banner from "./banner/Banner";
+import Parts from "./parts/Parts";
+import Types from "./types/Types";
+import CardTypes from "../../partials/CardTypes";
+import Toppings from "./toppings/Toppings";
+import CardToppings from "../../partials/CardToppings";
+import Benefits from "./benefits/Benefits";
+import Contact from "../../partials/Contact";
+import Footer from "../../partials/Footer";
 
 const Home = () => {
   return (
@@ -9,8 +16,13 @@ const Home = () => {
       <Header />
       <Banner />
       <Parts />
+      <Types />
+      <Toppings />
+      <Benefits />
+      <Contact />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
